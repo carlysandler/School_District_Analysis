@@ -7,7 +7,7 @@ The goal of the School District Analysis project was to utilize Pandas' in 'Jupy
 
 In order to complete this brief for Maria and her respective school board, the 'students_complete.csv' required further data cleaning and replacing, after the school board discovered evidence of altered data points, the math and reading standardized test scores for 9th graders at Thomas High School. 
 
-__Deliverable 1__
+###__Deliverable 1__
 Deliverable 1 mandates the replacement of Thomas High School's 9th grade reading and math test scores with 'NaNs', while protecting the remaining contents of the 'DataFrame'.
 
 The following tasks were completed in order to satisfy __Deliverable 1__ requirements:
@@ -25,7 +25,7 @@ Deliverable 1: Cleaned DataFrame 'student_data_df'
 Deliberable 1: Code Block (Steps 1-4)
 ![Deliverable_1_code_block.png](C:\Users\carly\OneDrive\Desktop\data_bootcamp\analysis_projects\School_District_Analysis\Resources\Cleaned Code\1.1_thru_1.4.png)
 
-__Deliverable 2__ 
+###__Deliverable 2__ 
 Deliverable 2 progresses the school district analysis as it mandates that we repeat the necessary steps to update the code in 'PyCitySchools.ipynb', which will output the reinstated DataFrames in table format. 
 
 The following required metrics are updated with the cleaned school district data in 'School_District_Analysis'
@@ -47,7 +47,21 @@ The following required metrics are updated with the cleaned school district data
 
 ![2_district_summary_df](C:\Users\carly\OneDrive\Desktop\data_bootcamp\analysis_projects\School_District_Analysis\Resources\Cleaned Code\2_district_summary_df.png)
 
-2) _'school_data_complete_df_summary_df':_
+2) _'per_school_summary_df':_
+
+![deliverable2_per_school_summary_NEW.png](C:\Users\carly\OneDrive\Desktop\data_bootcamp\analysis_projects\School_District_Analysis\Resources\Cleaned Code\deliverable2_per_school_summary_NEW.png)
+
+3) _'top_performing_schools.head()':_
+
+![top_schools_NEW.png](C:\Users\carly\OneDrive\Desktop\data_bootcamp\analysis_projects\School_District_Analysis\Resources\Cleaned Code\top_schools_NEW.png)
+
+4) _'avg_math_score_by_grade':_
+
+![avg_math_grade_NEW.png](C:\Users\carly\OneDrive\Desktop\data_bootcamp\analysis_projects\School_District_Analysis\Resources\Cleaned Code\avg_math_grade_NEW.png)
+
+5) _'avg_reading_score_by_grade':_
+
+![avg_read_grade_NEW.png](C:\Users\carly\OneDrive\Desktop\data_bootcamp\analysis_projects\School_District_Analysis\Resources\Cleaned Code\avg_read_grade_NEW.png)
 
 ### Deliverable 2 Findings : Effects on DataFrames in 'PyCitySchools_Challenge.ipynb'
 
