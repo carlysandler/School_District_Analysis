@@ -23,7 +23,7 @@ Deliverable 1: Cleaned DataFrame 'student_data_df'
 ![Deliverable_1_student_data_df.png](C:\Users\carly\OneDrive\Desktop\data_bootcamp\analysis_projects\School_District_Analysis\Resources\Cleaned Code\Deliverable_1_student_data_df.png)
 
 Deliberable 1: Code Block (Steps 1-4)
-![1.1_thru_1.4.png](C:\Users\carly\OneDrive\Desktop\data_bootcamp\analysis_projects\School_District_Analysis\Resources\Cleaned Code\1.1_thru_1.4.png)
+![Deliverable_1_code_block.png](C:\Users\carly\OneDrive\Desktop\data_bootcamp\analysis_projects\School_District_Analysis\Resources\Cleaned Code\1.1_thru_1.4.png)
 
 __Deliverable 2__ 
 Deliverable 2 progresses the school district analysis as it mandates that we repeat the necessary steps to update the code in 'PyCitySchools.ipynb', which will output the reinstated DataFrames in table format. 
@@ -38,6 +38,19 @@ The following required metrics are updated with the cleaned school district data
 6) The scores by school spending per student
 7) THe scores by school size
 8) The scores by school type
+
+---
+
+## Results
+
+1) _'district_summary_df':_
+
+![2_district_summary_df](C:\Users\carly\OneDrive\Desktop\data_bootcamp\analysis_projects\School_District_Analysis\Resources\Cleaned Code\2_district_summary_df.png)
+
+2) _'school_data_complete_df_summary_df':_
+
+### Deliverable 2 Findings : Effects on DataFrames in 'PyCitySchools_Challenge.ipynb'
+
 
 
 Once these actions were taken and we ran the code in 'Jupyter Notebook'
