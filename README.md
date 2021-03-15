@@ -1,13 +1,12 @@
 # School_District_Analysis
 _Analysis of School District Data with `Jupyter Notebook`, `Anaconda`,`Python` & `Pandas`
 ---
-## _Overview of Project_
+## Overview of Project
 The goal of the School District Analysis project was to utilize `Pandas` in `Jupyter Notebook` to deliver multiple high-level insights, in table format, on the relative performances of the district's 15 schools. 
 
 In order to complete this brief for Maria and the respective school board, the `students_complete.csv` required further data cleaning and replacing, after the school board discovered evidence of altered data points, the math and reading standardized test scores for 9th graders at Thomas High School. 
 
-###__Deliverable 1__
-
+### Deliverable 1
 Deliverable 1 mandates the replacement of Thomas High School's 9th grade reading and math test scores with `NaNs`, while protecting the remaining contents of the `DataFrame`.
 
 The following tasks were completed in order to satisfy __Deliverable 1__ requirements:
@@ -26,8 +25,7 @@ Deliverable 1: Cleaned DataFrame `student_data_df`
 Deliverable 1: Code Block (Steps 1-4)
 <img width="831" alt="Deliverable_1_code_block" src="https://user-images.githubusercontent.com/77628698/111105630-cc240c80-8529-11eb-8a5e-6af6b68a7962.png">
 
-###__Deliverable 2__ 
-
+### Deliverable 2
 Deliverable 2 mandates that we repeat the necessary steps to update the code in 'PyCitySchools.ipynb', which will output the reinstated DataFrames in table format. 
 
 The following required metrics are updated with the cleaned school district data in `School_District_Analysis`
