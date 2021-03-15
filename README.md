@@ -20,10 +20,10 @@ The following tasks were completed in order to satisfy __Deliverable 1__ require
  - [x] reading and math scores, for 9th graders at THS `=np.nan`
  
 Deliverable 1: Cleaned DataFrame `student_data_df`
-![Deliverable_1_student_data_df](C:\Users\carly\OneDrive\Desktop\data_bootcamp\analysis_projects\School_District_Analysis\Resources\Cleaned Code\Deliverable_1_student_data_df.png)
+![Deliverable_1_student_data_df](C:\Users\carly\OneDrive\Desktop\data_bootcamp\analysis_projects\School_District_Analysis\Resources\Deliverable_1_student_data_df.png)
 
 Deliverable 1: Code Block (Steps 1-4)
-![Deliverable_1_code_block](C:\Users\carly\OneDrive\Desktop\data_bootcamp\analysis_projects\School_District_Analysis\Resources\Cleaned Code\1.1_thru_1.4.png)
+![Deliverable_1_code_block](C:\Users\carly\OneDrive\Desktop\data_bootcamp\analysis_projects\School_District_Analysis\Resources\1.1_thru_1.4.png)
 
 ###__Deliverable 2__ 
 
@@ -45,39 +45,39 @@ The following required metrics are updated with the cleaned school district data
 
 1) _`district_summary_df`:_
 
-![2_district_summary_df](C:\Users\carly\OneDrive\Desktop\data_bootcamp\analysis_projects\School_District_Analysis\Resources\Cleaned Code\2_district_summary_df.png)
+![2_district_summary_df](C:\Users\carly\OneDrive\Desktop\data_bootcamp\analysis_projects\School_District_Analysis\Resources\2_district_summary_df.png)
 
 2) _`per_school_summary_df`:_
 
-![deliverable2_per_school_summary_NEW](C:\Users\carly\OneDrive\Desktop\data_bootcamp\analysis_projects\School_District_Analysis\Resources\Cleaned Code\deliverable2_per_school_summary_NEW.png)
+![deliverable2_per_school_summary_NEW](C:\Users\carly\OneDrive\Desktop\data_bootcamp\analysis_projects\School_District_Analysis\Resources\deliverable2_per_school_summary_NEW.png)
 
 3) _`top_performing_schools.head()`:_
 
-![top_schools_NEW](C:\Users\carly\OneDrive\Desktop\data_bootcamp\analysis_projects\School_District_Analysis\Resources\Cleaned Code\top_schools_NEW.png)
+![top_schools_NEW](C:\Users\carly\OneDrive\Desktop\data_bootcamp\analysis_projects\School_District_Analysis\Resources\top_schools_NEW.png)
 
 4)_`bottom_performing_schools.head()`:_
 
-![bottom_schools_NEW](C:\Users\carly\OneDrive\Desktop\data_bootcamp\analysis_projects\School_District_Analysis\Resources\Cleaned Code\bottom_schools_NEW.png)
+![bottom_schools_NEW](C:\Users\carly\OneDrive\Desktop\data_bootcamp\analysis_projects\School_District_Analysis\Resources\bottom_schools_NEW.png)
 
 5) _`avg_math_score_by_grade`:_
 
-![avg_math_grade_NEW](C:\Users\carly\OneDrive\Desktop\data_bootcamp\analysis_projects\School_District_Analysis\Resources\Cleaned Code\avg_math_grade_NEW.png)
+![avg_math_grade_NEW](C:\Users\carly\OneDrive\Desktop\data_bootcamp\analysis_projects\School_District_Analysis\Resources\avg_math_grade_NEW.png)
 
 6) _`avg_reading_score_by_grade`:_
 
-![avg_read_grade_NEW](C:\Users\carly\OneDrive\Desktop\data_bootcamp\analysis_projects\School_District_Analysis\Resources\Cleaned Code\avg_read_grade_NEW.png)
+![avg_read_grade_NEW](C:\Users\carly\OneDrive\Desktop\data_bootcamp\analysis_projects\School_District_Analysis\Resources\avg_read_grade_NEW.png)
 
 7) _`spending_summary_df`:_
 
-![spending_summary_NEW](C:\Users\carly\OneDrive\Desktop\data_bootcamp\analysis_projects\School_District_Analysis\Resources\Cleaned Code\spending_summary_NEW.png)
+![spending_summary_NEW](C:\Users\carly\OneDrive\Desktop\data_bootcamp\analysis_projects\School_District_Analysis\Resources\spending_summary_NEW.png)
 
 8) _`size_summary_df`:_
 
-![size_summary_NEW](C:\Users\carly\OneDrive\Desktop\data_bootcamp\analysis_projects\School_District_Analysis\Resources\Cleaned Code\size_summary_NEW.png)
+![size_summary_NEW](C:\Users\carly\OneDrive\Desktop\data_bootcamp\analysis_projects\School_District_Analysis\Resources\size_summary_NEW.png)
 
 9) _`type_summary_df`:_
 
-![type_summary_NEW](C:\Users\carly\OneDrive\Desktop\data_bootcamp\analysis_projects\School_District_Analysis\Resources\Cleaned Code\type_summary_NEW.png)
+![type_summary_NEW](C:\Users\carly\OneDrive\Desktop\data_bootcamp\analysis_projects\School_District_Analysis\Resources\type_summary_NEW.png)
 ---
 ### Deliverable 2 Findings : Effects on DataFrame Cleanup on `PyCitySchools_Challenge.ipynb`
 
@@ -93,7 +93,7 @@ __Before `school_data_df Cleanup__
 - % Overall Passing : 65
 
 __PyCitySchools file__
-![district_summary_df_OLD](C:\Users\carly\OneDrive\Desktop\data_bootcamp\analysis_projects\School_District_Analysis\Resources\Old Code\district_summary_df_OLD.png)
+![district_summary_df_OLD](C:\Users\carly\OneDrive\Desktop\data_bootcamp\analysis_projects\School_District_Analysis\Resources\district_summary_df_OLD.png)
 
 __Ater 'school_data_df' Cleanup__
 - Average Math Score : 78.9
@@ -103,7 +103,7 @@ __Ater 'school_data_df' Cleanup__
 - % Overall Passing : 64.9
 
 __PyCitySchools_Challege file__
-![district_summary_df_NEW](C:\Users\carly\OneDrive\Desktop\data_bootcamp\analysis_projects\School_District_Analysis\Resources\Cleaned Code\district_summary_df_NEW.png)
+![district_summary_df_NEW](C:\Users\carly\OneDrive\Desktop\data_bootcamp\analysis_projects\School_District_Analysis\Resources\district_summary_df_NEW.png)
 
 
 #### School Summary (per_school_summary_df)
@@ -111,12 +111,12 @@ __PyCitySchools_Challege file__
 __Before `school_data_df` Cleanup__
 
 __PyCitySchools file__
-![_per_school_summary_OLD](C:\Users\carly\OneDrive\Desktop\data_bootcamp\analysis_projects\School_District_Analysis\Resources\Old Code\_per_school_summary_OLD.png)
+![_per_school_summary_OLD](C:\Users\carly\OneDrive\Desktop\data_bootcamp\analysis_projects\School_District_Analysis\Resources\per_school_summary_OLD.png)
 
 __After `school_data_df` Cleanup__
 
 __PyCitySchools_Challenge file__
-![deliverable2_per_school_summary_NEW](C:\Users\carly\OneDrive\Desktop\data_bootcamp\analysis_projects\School_District_Analysis\Resources\Cleaned Code\deliverable2_per_school_summary_NEW.png)
+![deliverable2_per_school_summary_NEW](C:\Users\carly\OneDrive\Desktop\data_bootcamp\analysis_projects\School_District_Analysis\Cleaned Code\deliverable2_per_school_summary_NEW.png)
 
 #### Thomas High School Relative Performance (9th grade math and reading scores = NaNs)
 
@@ -128,66 +128,66 @@ Repalcing the ninth graders' math and reading scores for Thomas High School chan
 #### `per_school_summary_df`
 
 __PyCitySchools file__
-![per_school_summary_df_tail_OLD](C:\Users\carly\OneDrive\Desktop\data_bootcamp\analysis_projects\School_District_Analysis\Resources\Old Code\per_school_summary_df_tail_OLD.png)
+![per_school_summary_df_tail_OLD](C:\Users\carly\OneDrive\Desktop\data_bootcamp\analysis_projects\School_District_Analysis\Resources\per_school_summary_df_tail_OLD.png)
 
 __PyCitySchools_Challege file__
-![per_school_summary_THS_new](C:\Users\carly\OneDrive\Desktop\data_bootcamp\analysis_projects\School_District_Analysis\Resources\Cleaned Code\per_school_summary_THS_new.png)
+![per_school_summary_THS_new](C:\Users\carly\OneDrive\Desktop\data_bootcamp\analysis_projects\School_District_Analysis\Resources\per_school_summary_THS_new.png)
 
 #### `top_performing_schools`
 
 __PyCitySchools file__
-![top_schools_OLD](C:\Users\carly\OneDrive\Desktop\data_bootcamp\analysis_projects\School_District_Analysis\Resources\Old Code\top_schools_OLD.png)
+![top_schools_OLD](C:\Users\carly\OneDrive\Desktop\data_bootcamp\analysis_projects\School_District_Analysis\Resources\top_schools_OLD.png)
 
 __PyCitySchools_Challenge file__
-![top_schools_NEW](C:\Users\carly\OneDrive\Desktop\data_bootcamp\analysis_projects\School_District_Analysis\Resources\Cleaned Code\top_schools_NEW.png)
+![top_schools_NEW](C:\Users\carly\OneDrive\Desktop\data_bootcamp\analysis_projects\School_District_Analysis\Resources\top_schools_NEW.png)
 
 ##### Math and Reading Scores By Grade
 
 __Before Cleanup__
 
 __PyCitySchools file__
-![math_read_grade_OLD](C:\Users\carly\OneDrive\Desktop\data_bootcamp\analysis_projects\School_District_Analysis\Resources\Old Code\math_read_grade_OLD.png)
+![math_read_grade_OLD](C:\Users\carly\OneDrive\Desktop\data_bootcamp\analysis_projects\School_District_Analysis\Resources\math_read_grade_OLD.png)
 
 __After Cleanup__
 
 __PyCitySchools_Challege file__
-![math_read_grade.NEW](C:\Users\carly\OneDrive\Desktop\data_bootcamp\analysis_projects\School_District_Analysis\Resources\Cleaned Code\math_read_grade_NEW.png)
+![math_read_grade.NEW](C:\Users\carly\OneDrive\Desktop\data_bootcamp\analysis_projects\School_District_Analysis\Resources\math_read_grade_NEW.png)
 
 ##### Scores by School Spending 
 
 __Before Cleanup__
 
 __PyCitySchools file__
-![spending_summary_OLD](C:\Users\carly\OneDrive\Desktop\data_bootcamp\analysis_projects\School_District_Analysis\Resources\Old Code\spending_summary_OLD.png)
+![spending_summary_OLD](C:\Users\carly\OneDrive\Desktop\data_bootcamp\analysis_projects\School_District_Analysis\Resources\spending_summary_OLD.png)
 
 __After Cleanup__
 
 __PyCitySchools_Challege file__
-![spending_summary_NEW](C:\Users\carly\OneDrive\Desktop\data_bootcamp\analysis_projects\School_District_Analysis\Resources\Cleaned Code\spending_summary_NEW.png)
+![spending_summary_NEW](C:\Users\carly\OneDrive\Desktop\data_bootcamp\analysis_projects\School_District_Analysis\Resources\spending_summary_NEW.png)
 
 ##### Scores by School Size
 
 __Before Cleanup__
 
 __PyCitySchools file__
-![size_summary_OLD](C:\Users\carly\OneDrive\Desktop\data_bootcamp\analysis_projects\School_District_Analysis\Resources\Old Code\size_summary_OLD.png)
+![size_summary_OLD](C:\Users\carly\OneDrive\Desktop\data_bootcamp\analysis_projects\School_District_Analysis\Resources\size_summary_OLD.png)
 
 __After Cleanup__
 
 __PyCitySchools_Challege file__
-![size_summary_NEW](C:\Users\carly\OneDrive\Desktop\data_bootcamp\analysis_projects\School_District_Analysis\Resources\Cleaned Code\size_summary_NEW.png)
+![size_summary_NEW](C:\Users\carly\OneDrive\Desktop\data_bootcamp\analysis_projects\School_District_Analysis\Resources\size_summary_NEW.png)
 
 ##### Scores by School Type
 
 __Before Cleanup__
 
 __PyCitySchools file__
-![type_summary_OLD](C:\Users\carly\OneDrive\Desktop\data_bootcamp\analysis_projects\School_District_Analysis\Resources\Old Code\type_summary_OLD.png)
+![type_summary_OLD](C:\Users\carly\OneDrive\Desktop\data_bootcamp\analysis_projects\School_District_Analysis\Resources\type_summary_OLD.png)
 
 __After Cleanup__
 
 __PyCitySchools_Challege file__
-![type_summary_NEW](C:\Users\carly\OneDrive\Desktop\data_bootcamp\analysis_projects\School_District_Analysis\Resources\Cleaned Code\type_summary_NEW.png)
+![type_summary_NEW](C:\Users\carly\OneDrive\Desktop\data_bootcamp\analysis_projects\School_District_Analysis\Resources\type_summary_NEW.png)
 ---
 ### Summary
 __Major Changes in Updated School District Analysis:__
