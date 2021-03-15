@@ -20,7 +20,7 @@ The following tasks were completed in order to satisfy __Deliverable 1__ require
  - [x] reading and math scores, for 9th graders at THS `=np.nan`
  
 Deliverable 1: Cleaned DataFrame `student_data_df`
-![Deliverable_1_student_data_df](C:\Users\carly\OneDrive\Desktop\data_bootcamp\analysis_projects\School_District_Analysis\Resources\Deliverable_1_student_data_df.png)
+![Deliverable_1_student_data_df.png](C:\Users\carly\OneDrive\Desktop\data_bootcamp\analysis_projects\School_District_Analysis\Resources\Deliverable_1_student_data_df.png)
 
 Deliverable 1: Code Block (Steps 1-4)
 ![Deliverable_1_code_block](C:\Users\carly\OneDrive\Desktop\data_bootcamp\analysis_projects\School_District_Analysis\Resources\1.1_thru_1.4.png)
