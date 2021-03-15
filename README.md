@@ -7,6 +7,7 @@ The goal of the School District Analysis project was to utilize Pandas' in 'Jupy
 In order to complete this brief for Maria and her respective school board, the 'students_complete.csv' required further data cleaning and replacing, after the school board discovered evidence of altered data points, the math and reading standardized test scores for 9th graders at Thomas High School. 
 
 ###__Deliverable 1__
+
 Deliverable 1 mandates the replacement of Thomas High School's 9th grade reading and math test scores with 'NaNs', while protecting the remaining contents of the 'DataFrame'.
 
 The following tasks were completed in order to satisfy __Deliverable 1__ requirements:
@@ -25,6 +26,7 @@ Deliberable 1: Code Block (Steps 1-4)
 ![Deliverable_1_code_block.png](C:\Users\carly\OneDrive\Desktop\data_bootcamp\analysis_projects\School_District_Analysis\Resources\Cleaned Code\1.1_thru_1.4.png)
 
 ###__Deliverable 2__ 
+
 Deliverable 2 progresses the school district analysis as it mandates that we repeat the necessary steps to update the code in 'PyCitySchools.ipynb', which will output the reinstated DataFrames in table format. 
 
 The following required metrics are updated with the cleaned school district data in 'School_District_Analysis'
@@ -79,7 +81,7 @@ The following required metrics are updated with the cleaned school district data
 ---
 ### Deliverable 2 Findings : Effects on DataFrame Cleanup on 'PyCitySchools_Challenge.ipynb'
 
-The below analyses list the effects of cleaning the data on each key metric 'DataFrame':
+The below analyses list the effects of cleaning the data (replacing ninth-grade scores with NaNs) on each key metric 'DataFrame':
 
 #### District Summary
 
@@ -104,4 +106,85 @@ __PyCitySchools_Challege file__
 ![district_summary_df_NEW.png](C:\Users\carly\OneDrive\Desktop\data_bootcamp\analysis_projects\School_District_Analysis\Resources\Cleaned Code\district_summary_df_NEW.png)
 
 
+#### School Summary (per_school_summary_df)
+
+__Before 'school_data_df' Cleanup__
+
+__PyCitySchools file__
+![_per_school_summary_OLD.png](C:\Users\carly\OneDrive\Desktop\data_bootcamp\analysis_projects\School_District_Analysis\Resources\Old Code\_per_school_summary_OLD.png)
+
+__Ater 'school_data_df' Cleanup__
+- Average Math Score : 78.9
+- Average Reading Score : 81.9
+- % Passing Math : 74.8
+- % Passing Reading : 85.7
+- % Overall Passing : 64.9
+
+#### Thomas High School Relative Performance (9th grade math and reading scores = NaNs)
+
+Repalcing the ninth graders' math and reading scores for Thomas High School changed THS relative ranking compared to other schools' performances from 8th to 2nd place.
+
+*per_school_summary_df*
+
+__PyCitySchools file__
+![per_school_summary_df_tail_OLD.png](C:\Users\carly\OneDrive\Desktop\data_bootcamp\analysis_projects\School_District_Analysis\Resources\Old Code\per_school_summary_df_tail_OLD.png)
+
+__PyCitySchools_Challege file__
+![per_school_summary_THS_new](C:\Users\carly\OneDrive\Desktop\data_bootcamp\analysis_projects\School_District_Analysis\Resources\Cleaned Code\per_school_summary_THS_new.png)
+
+*top_performing_schools*
+
+__PyCitySchools file__
+![top_schools_OLD.png](C:\Users\carly\OneDrive\Desktop\data_bootcamp\analysis_projects\School_District_Analysis\Resources\Old Code\top_schools_OLD.png)
+
+__PyCitySchools_Challenge file__
+![top_schools_NEW.png](C:\Users\carly\OneDrive\Desktop\data_bootcamp\analysis_projects\School_District_Analysis\Resources\Cleaned Code\top_schools_NEW.png)
+
+##### Math and Reading Scores By Grade
+
+__Before Cleanup__
+
+__PyCitySchools file__
+![math_read_grade_OLD.png](C:\Users\carly\OneDrive\Desktop\data_bootcamp\analysis_projects\School_District_Analysis\Resources\Old Code\math_read_grade_OLD.png)
+
+__After Cleanup__
+
+__PyCitySchools_Challege file__
+![math_read_grade.NEW.png](C:\Users\carly\OneDrive\Desktop\data_bootcamp\analysis_projects\School_District_Analysis\Resources\Cleaned Code\math_read_grade_NEW.png)
+
+##### Scores by School Spending 
+
+__Before Cleanup__
+
+__PyCitySchools file__
+![
+
+__After Cleanup__
+
+__PyCitySchools_Challege file__
+![spending_summary_NEW.png](C:\Users\carly\OneDrive\Desktop\data_bootcamp\analysis_projects\School_District_Analysis\Resources\Cleaned Code\spending_summary_NEW.png)
+
+##### Scores by School Size
+
+__Before Cleanup__
+
+__PyCitySchools file__
+![size_summary_OLD.png](C:\Users\carly\OneDrive\Desktop\data_bootcamp\analysis_projects\School_District_Analysis\Resources\Old Code\size_summary_OLD.png)
+
+__After Cleanup__
+
+__PyCitySchools_Challege file__
+![size_summary_NEW.png](C:\Users\carly\OneDrive\Desktop\data_bootcamp\analysis_projects\School_District_Analysis\Resources\Cleaned Code\size_summary_NEW.png)
+
+##### Scores by School Type
+
+__Before Cleanup__
+
+__PyCitySchools file__
+![type_summary_OLD.png](C:\Users\carly\OneDrive\Desktop\data_bootcamp\analysis_projects\School_District_Analysis\Resources\Old Code\type_summary_OLD.png)
+
+__After Cleanup__
+
+__PyCitySchools_Challege file__
+![type_summary_NEW.png](C:\Users\carly\OneDrive\Desktop\data_bootcamp\analysis_projects\School_District_Analysis\Resources\Cleaned Code\type_summary_NEW.png)
 
