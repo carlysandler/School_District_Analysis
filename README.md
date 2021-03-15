@@ -1,7 +1,6 @@
 # School_District_Analysis
 _Analysis of School District Data with 'Jupyter Notebook','Anaconda','Python' & 'Pandas'_
 ---
-
 ## _Overview of Project_
 The goal of the School District Analysis project was to utilize Pandas' in 'Jupyter Notebook' to deliver multiple high-level insights, in table format, on the relative performances of the district's 15 schools. 
 
@@ -39,9 +38,7 @@ The following required metrics are updated with the cleaned school district data
 7) The scores by school spending per student
 8) THe scores by school size
 9) The scores by school type
-
 ---
-
 ## Results
 
 1) _'district_summary_df':_
@@ -79,6 +76,32 @@ The following required metrics are updated with the cleaned school district data
 9) _'type_summary_df':_
 
 ![type_summary_NEW.png](C:\Users\carly\OneDrive\Desktop\data_bootcamp\analysis_projects\School_District_Analysis\Resources\Cleaned Code\type_summary_NEW.png)
+---
+### Deliverable 2 Findings : Effects on DataFrame Cleanup on 'PyCitySchools_Challenge.ipynb'
 
-### Deliverable 2 Findings : Effects on DataFrames in 'PyCitySchools_Challenge.ipynb'
+The below analyses list the effects of cleaning the data on each key metric 'DataFrame':
+
+#### District Summary
+
+__Before 'school_data_df' Cleanup__
+- Average Math Score : 79.0
+- Average Reading Score : 81.9
+- % Passing Math : 75
+- % Passing Reading : 86
+- % Overall Passing : 65
+
+__PyCitySchools file__
+![district_summary_df_OLD.png](C:\Users\carly\OneDrive\Desktop\data_bootcamp\analysis_projects\School_District_Analysis\Resources\Old Code\district_summary_df_OLD.png)
+
+__Ater 'school_data_df' Cleanup__
+- Average Math Score : 78.9
+- Average Reading Score : 81.9
+- % Passing Math : 74.8
+- % Passing Reading : 85.7
+- % Overall Passing : 64.9
+
+__PyCitySchools_Challege file__
+![district_summary_df_NEW.png](C:\Users\carly\OneDrive\Desktop\data_bootcamp\analysis_projects\School_District_Analysis\Resources\Cleaned Code\district_summary_df_NEW.png)
+
+
 
