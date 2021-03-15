@@ -122,9 +122,12 @@ __Ater 'school_data_df' Cleanup__
 
 #### Thomas High School Relative Performance (9th grade math and reading scores = NaNs)
 
-Repalcing the ninth graders' math and reading scores for Thomas High School changed THS relative ranking compared to other schools' performances from 8th to 2nd place.
+Repalcing the ninth graders' math and reading scores for Thomas High School changed THS relative ranking compared to other schools' performances.
 
-*per_school_summary_df*
+- Before cleanup: 2nd place 
+- After cleanup: 8th place
+
+#### *per_school_summary_df*
 
 __PyCitySchools file__
 ![per_school_summary_df_tail_OLD.png](C:\Users\carly\OneDrive\Desktop\data_bootcamp\analysis_projects\School_District_Analysis\Resources\Old Code\per_school_summary_df_tail_OLD.png)
@@ -132,7 +135,7 @@ __PyCitySchools file__
 __PyCitySchools_Challege file__
 ![per_school_summary_THS_new](C:\Users\carly\OneDrive\Desktop\data_bootcamp\analysis_projects\School_District_Analysis\Resources\Cleaned Code\per_school_summary_THS_new.png)
 
-*top_performing_schools*
+#### *top_performing_schools*
 
 __PyCitySchools file__
 ![top_schools_OLD.png](C:\Users\carly\OneDrive\Desktop\data_bootcamp\analysis_projects\School_District_Analysis\Resources\Old Code\top_schools_OLD.png)
@@ -189,7 +192,6 @@ __PyCitySchools_Challege file__
 ![type_summary_NEW.png](C:\Users\carly\OneDrive\Desktop\data_bootcamp\analysis_projects\School_District_Analysis\Resources\Cleaned Code\type_summary_NEW.png)
 ---
 ### Summary
-
 __Major Changes in Updated School District Analysis:__
 *After reading/math scores for ninth graders at Thomas High School = NaNs*
 
@@ -197,9 +199,21 @@ __Major Changes in Updated School District Analysis:__
   - % Passing Math
   - % Passing Reading
   - % Overall Passing
-2) Spending bin "$630-644", which THS is allocated to, has lower performance metrics:
+2) Thomas High School's nullified 9th grade data, *greatly* affected the school's "% Overall Passing"
+  - student_count before cleanup:1635
+  - student_count after cleanup: 1174
+  - % Overall Passing decrease by 25 ppts (from 90% to 60%)
+  
+Removing the ~500 9th graders purposely inflated grades brings the school's average down significantly, with only 10th-12th grade averages being weighted along with the school_count of 10th-12th grade students only.
+
+3) Spending bin "$630-644", has reduced (lower) performance metrics:
   - % Passing Math
   - % Passing Reading
   - % Overall Passing
-3)
-4) 
+    - THS is allocated to spending bucket "$630-644
+   
+4) Thomas High School per school summary average math and reading scores are more inelastic than % passing math and passing reading
+  - Average reading and math score by grade did not vary much
+  - All grades had average math and reading scores around 80%, so when we remove the 9th grade scores from these averages:
+    -The new average scores are barely changed as the score distrubtions between each grade is relatively constant
+  - If school performance was reflective of average math and reading scores (weighted average), THS relative ranking would not have been chaned much either
