@@ -33,11 +33,12 @@ The following required metrics are updated with the cleaned school district data
 1) The district summary DataFrame
 2) The school summary DataFrame
 3) The top 5 performing schools, based on the overall passing percentage
-4) The average math score for each grade level from each school
-5) The average reading score for each grade level from each school
-6) The scores by school spending per student
-7) THe scores by school size
-8) The scores by school type
+4) The bottom 5 performing schools. based on the overall passing percentage
+5) The average math score for each grade level from each school
+6) The average reading score for each grade level from each school
+7) The scores by school spending per student
+8) THe scores by school size
+9) The scores by school type
 
 ---
 
@@ -55,20 +56,29 @@ The following required metrics are updated with the cleaned school district data
 
 ![top_schools_NEW.png](C:\Users\carly\OneDrive\Desktop\data_bootcamp\analysis_projects\School_District_Analysis\Resources\Cleaned Code\top_schools_NEW.png)
 
-4) _'avg_math_score_by_grade':_
+4)_'bottom_performing_schools.head()':_
+
+![bottom_schools_NEW.png](C:\Users\carly\OneDrive\Desktop\data_bootcamp\analysis_projects\School_District_Analysis\Resources\Cleaned Code\bottom_schools_NEW.png)
+
+5) _'avg_math_score_by_grade':_
 
 ![avg_math_grade_NEW.png](C:\Users\carly\OneDrive\Desktop\data_bootcamp\analysis_projects\School_District_Analysis\Resources\Cleaned Code\avg_math_grade_NEW.png)
 
-5) _'avg_reading_score_by_grade':_
+6) _'avg_reading_score_by_grade':_
 
 ![avg_read_grade_NEW.png](C:\Users\carly\OneDrive\Desktop\data_bootcamp\analysis_projects\School_District_Analysis\Resources\Cleaned Code\avg_read_grade_NEW.png)
 
+7) _'spending_summary_df':_
+
+![spending_summary_NEW.png](C:\Users\carly\OneDrive\Desktop\data_bootcamp\analysis_projects\School_District_Analysis\Resources\Cleaned Code\spending_summary_NEW.png)
+
+8) _'size_summary_df':_
+
+![size_summary_NEW.png](C:\Users\carly\OneDrive\Desktop\data_bootcamp\analysis_projects\School_District_Analysis\Resources\Cleaned Code\size_summary_NEW.png)
+
+9) _'type_summary_df':_
+
+![type_summary_NEW.png](C:\Users\carly\OneDrive\Desktop\data_bootcamp\analysis_projects\School_District_Analysis\Resources\Cleaned Code\type_summary_NEW.png)
+
 ### Deliverable 2 Findings : Effects on DataFrames in 'PyCitySchools_Challenge.ipynb'
 
-
-
-Once these actions were taken and we ran the code in 'Jupyter Notebook'
-Key metrics measuring relative school performance included:
--
-- 
-- metrics erformance varying school performance key metrics intra district school  for our clients, Maria and her respective district school board,
