@@ -157,7 +157,7 @@ __PyCitySchools_Challege file__
 __Before Cleanup__
 
 __PyCitySchools file__
-![
+![spending_summary_OLD.png](C:\Users\carly\OneDrive\Desktop\data_bootcamp\analysis_projects\School_District_Analysis\Resources\Old Code\spending_summary_OLD.png)
 
 __After Cleanup__
 
@@ -187,4 +187,19 @@ __After Cleanup__
 
 __PyCitySchools_Challege file__
 ![type_summary_NEW.png](C:\Users\carly\OneDrive\Desktop\data_bootcamp\analysis_projects\School_District_Analysis\Resources\Cleaned Code\type_summary_NEW.png)
+---
+### Summary
 
+__Major Changes in Updated School District Analysis:__
+*After reading/math scores for ninth graders at Thomas High School = NaNs*
+
+1) THS with removed 9th grade scores (NaNs treated as "=0") reduces the school's:
+  - % Passing Math
+  - % Passing Reading
+  - % Overall Passing
+2) Spending bin "$630-644", which THS is allocated to, has lower performance metrics:
+  - % Passing Math
+  - % Passing Reading
+  - % Overall Passing
+3)
+4) 
